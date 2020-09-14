@@ -9,7 +9,7 @@ First clone repository, by running this command from Terminal
 
 Change directory
 ```
- cd crud-laravel 
+ cd crud-laravel-vue
 ```
 
 Copy file .env.example file to .env, Then set the environment
@@ -19,7 +19,7 @@ Copy file .env.example file to .env, Then set the environment
 
 Let's install all packages
 ```
- composer install 
+ composer install
 ```
 
 Generate Application Key
@@ -29,12 +29,12 @@ Generate Application Key
 
 Let's do some migration
 ```
- php artisan migrate 
+ php artisan migrate
 ```
 
 And run the web server
 ```
- php artisan serve 
+ php artisan serve
 ```
 
 Now, visit http://localhost:8000/crud/category or http://localhost:8000/crud/product to try demo
